@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiTimer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="main">
+            <div class="timer">
+                <p>Hours:</p>
+                <input type="number" id="askHours" value="0" max="60" min="0">
+                <p>Minutes:</p>
+                <input type="number" id="askMinutes" value="1" max="59" min="0">
+                <p>Seconds:</p>
+                <input type="number" id="askSeconds" value="0" max="59" min="0">
+                <button class="add">add a timer</button>
+                <div class="timers"></div>
+                <div class="out"></div>
+                <!-- <div class="timer__info">
+                <span id="h"></span>
+                <span id="m"></span>
+                <span id="s"></span>
+                <button class="start">start</button>
+                <div class="out"></div>
+            </div> -->
+            </div>
+        </main>
+        <footer class="footer">
+            <p>Kapatsyna Daniil (or in Romanian Capațîna Daniil). 23.03.2023</p>
+            <a href="https://github.com/kapatsyna">go to my github</a>
+
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
